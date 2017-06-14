@@ -5,3 +5,4 @@ print "This is fun"
 print 'Yay! Printing.'
 print "I'd much rather you 'not'."
 print 'I "said" do not touch this.'
+# Print does as it says. It prints statements. 
