@@ -2,6 +2,7 @@ from sys import argv
 from os.path import exists
 
 script, from_file, to_file = argv
+# Stores agruements for the following above. Input for from_file and to_file
 
 print "Copying from %s to %s" % (from_file, to_file)
 
@@ -10,7 +11,7 @@ input = open(from_file)
 indata = input.read()
 
 print "The input file is %d bytes long" % len(indata)
-
+# len seems to be able to count the number of bytes the file has.
 print "Does the output file exist? %r" % exists(to_file)
 print "Ready, hit RETURN to continue, CTRL-C to abort."
 raw_input()
@@ -22,3 +23,4 @@ print "Alright, all done."
 
 output.close()
 input.close()
+# Should try to shorten the script as much as I can
