@@ -13,7 +13,8 @@ lives = raw_input(prompt)
 
 print "Where kind of computer do you have?"
 computer = raw_input(prompt)
-
+# Inside all raw_inputs is the variable "prompt" which shows '> ' which is shown before user input.
+# also since %s is being used '' will not be used
 print """
 Alright, so you said %r about liking me.
 You live in %r. Not sure where that is.
