@@ -33,7 +33,7 @@ def Dread_room():
 					check = True
 					print "The trunk of the tree is rotten."
 					print "It's front resemables that of a man's face"
-					print "Screaming as it seems. A key is tied to the rope. Maybe 'Take key?'"
+					print "Screaming as it seems. A key is tied to the rope. Maybe 'Take key'?"
 	
 			check = False
 			while check == False:
