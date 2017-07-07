@@ -11,7 +11,7 @@ def Trap_room():
 	else:
 		Trap_room()		
 
-def Dread_room():
+def Tree_room():
 	print "The door slam shut behind you"
 	print "This room is odd."
 	print "There is grass, a single tree in the middle, and rope tied on the tree. Should probably 'checkout'"
@@ -55,8 +55,8 @@ def graveyard():
 		print "Indecision is never a good thing,"
 		graveyard()
 		
-def dead(why):
-	print why, "'Rip in peace'"
+def dead(gameover):
+	print gameover, "'Rip in peace'"
 	exit(0)
 
 def start():
